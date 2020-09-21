@@ -12,6 +12,18 @@ p {
     font-family: Verdana;
     font-size: 15px;
 }
+
+li {
+    float: left;
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    padding: 8px;
+    background-color: white;
+}
+
  .movie {
      background-color: white;
      color: black;
