@@ -7,7 +7,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MyController {
 
     @GetMapping("/")
-        public String home(){
+    public String home() {
         return ("home");
+    }
+
+    @GetMapping("/popular")
+    public String popularMovies() {
+        return ("popular");
+    }
+
+    @GetMapping("/worst")
+    public String worstMovies() {
+        return ("worst");
+    }
+
+    @GetMapping("/earning")
+    public String bestEarningMovies() {
+        return ("earning");
     }
 }
