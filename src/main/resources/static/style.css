@@ -24,6 +24,10 @@ a {
     background-color: white;
 }
 
+img{
+    border-radius: 8px;
+}
+
  .movie {
      background-color: white;
      color: black;
