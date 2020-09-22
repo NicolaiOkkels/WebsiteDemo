@@ -14,7 +14,7 @@ p {
 }
 
 li {
-    float: left;
+    float: contour;
     display: inline;
 }
 
