@@ -44,6 +44,19 @@ li a {
     background-color: #333
 }
 
+.button {
+    background-color: #333;
+    float: end;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
  .movie {
      background-color: white;
      color: black;
